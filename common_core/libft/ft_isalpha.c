@@ -6,13 +6,13 @@
 /*   By: lbricio- <lbricio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 21:57:14 by lbricio-          #+#    #+#             */
-/*   Updated: 2024/10/16 22:28:16 by lbricio-         ###   ########.fr       */
+/*   Updated: 2024/10/19 18:48:22 by lbricio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-bool	ft_isalpha(int c)
+t_bool	ft_isalpha(int c)
 {
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }

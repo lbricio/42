@@ -6,13 +6,13 @@
 /*   By: lbricio- <lbricio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 22:26:19 by lbricio-          #+#    #+#             */
-/*   Updated: 2024/10/16 22:28:13 by lbricio-         ###   ########.fr       */
+/*   Updated: 2024/10/19 18:48:27 by lbricio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-bool	ft_isdigit(int c)
+t_bool	ft_isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }

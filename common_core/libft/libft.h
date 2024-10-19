@@ -6,7 +6,7 @@
 /*   By: lbricio- <lbricio-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 21:59:27 by lbricio-          #+#    #+#             */
-/*   Updated: 2024/10/16 22:48:35 by lbricio-         ###   ########.fr       */
+/*   Updated: 2024/10/19 18:50:22 by lbricio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,11 @@
 # include <limits.h>
 
 // define type bool
-typedef enum 
+typedef enum e_bool
 {
 	false,
 	true
-} bool;
+}	t_bool;
 
 // typedef struct s_list
 // {
@@ -31,11 +31,11 @@ typedef enum
 // }	t_list;
 
 // Part 1 - Libc functions
-bool			ft_isalpha(int c);
-bool			ft_isascii(int c);
-bool			ft_isprint(int c);
-bool			ft_isdigit(int c);
-bool			ft_isalnum(int c);
+t_bool			ft_isalpha(int c);
+t_bool			ft_isascii(int c);
+t_bool			ft_isprint(int c);
+t_bool			ft_isdigit(int c);
+t_bool			ft_isalnum(int c);
 // int				ft_tolower(int c);
 // int				ft_toupper(int c);
 
@@ -47,12 +47,13 @@ bool			ft_isalnum(int c);
 // void			*ft_memchr(const void *s, int c, size_t n);
 // int			ft_memcmp(const void *s1, const void *s2, size_t n);
 
-size_t		ft_strlen(const char *s);
+size_t			ft_strlen(const char *s);
 // size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 // size_t		ft_strlcat(char *dst, const char *src, size_t dstsize);
 // char			*ft_strchr(const char *s, int c);
 // char			*ft_strrchr(const char *s, int c);
-// char			*ft_strnstr(const char *haystack, const char *needle, size_t len);
+// char			*ft_strnstr(const char *haystack, const char 
+// *needle, size_t len);
 // char			*ft_strdup(const char *s1);
 // int			ft_strncmp(const char *s1, const char *s2, size_t n);
 // int			ft_atoi(const char *str);
